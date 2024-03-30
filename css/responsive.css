@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  header {
+    display: flex;
+  }
+
+  footer {
+    position: static;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 60px;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .bar {
+    width: 32px;
+    height: 4px;
+  }
+
+  .wrapper,
+  .main-wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .information h2,
+  .introduction h2 {
+    padding: 20px 10px 0px;
+    font-size: 28px;
+  }
+
+  .information p,
+  .introduction p {
+    padding: 20px 0px 0px;
+    font-size: 18px;
+  }
+
+  .profile-image {
+    border: 1px solid #fff;
+    border: none;
+    margin-top: 20px;
+  }
+
+  footer {
+    position: relative;
+    font-size: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  header {
+    height: 70px;
+  }
+
+  header h1 {
+    font-size: 27px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+  }
+
+  ul li a {
+    font-size: 20px;
+  }
+
+  .wrapper,
+  .main-wrapper {
+    width: 1000px;
+  }
+
+  .information {
+    width: 50%;
+    float: right;
+  }
+
+  .information h2 {
+    padding: 70px 10px 0px 50px;
+    font-size: 32px;
+  }
+
+  .introduction h2 {
+    font-size: 32px;
+  }
+
+  .information p {
+    padding: 20px 0px 0px 50px;
+    font-size: 20px;
+  }
+
+  .introduction p {
+    font: 22px;
+  }
+
+  .profile-image {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+  }
+
+  footer {
+    margin-top: 70px;
+    position: relative;
+    font-size: 16px;
+  }
+}
