@@ -2,7 +2,7 @@
     A simple web blog which created for learning. This website is created for introducing about myself and my future journey.
 
 -   How to run the web?
-    There're 2 ways to run the web blog. Here are they:
+    There're 3 ways to run the web blog. Here are they:
 
     1. Open the index.html file to open the webpage.
     2. Click on the Live demo which I posted on my github [here](https://github.com/giahao1411/personal-web-blog)
