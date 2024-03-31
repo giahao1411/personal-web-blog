@@ -23,4 +23,4 @@
     -   I most use html, css and javascript to implement my web blog.
     -   I'm also using font awesome cdn to generate some icon in Contact page.
 
-        Live demo [here](https://giahao1411.github.io/personal-blog-website).
+        Live demo [here](https://giahao1411.github.io/personal-web-blog/).
