@@ -42,5 +42,13 @@ function hideDropdown(event) {
 function formValidate() {
     let fullName = document.getElementById("fullName");
     let email = document.getElementById("email");
-    let mobile = document.getElementById("mobile");
+
+    if (!fullName.value || !email.value) {
+        alert("Please enter all the information before submit");
+        return false;
+    } else if (!email.value.includes("@")) {
+        alert("Your email is invalid");
+        return false;
+    }
+    return true;
 }

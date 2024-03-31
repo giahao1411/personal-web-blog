@@ -57,7 +57,6 @@
   footer {
     font-size: 15px;
   }
-
 }
 
 @media only screen and (min-width: 1024px) {
@@ -116,7 +115,7 @@
   }
 
   footer {
-    margin-top: 70px;
+    margin-top: 60px;
     position: relative;
     font-size: 16px;
   }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .contact {
     text-align: center;
     padding: 50px 0 20px 0;
@@ -8,6 +10,7 @@
 }
 
 .contact-container a {
+    font-family: Roboto;
     color: #fff;
     text-decoration: none;
     font-size: 20px;
@@ -17,6 +20,10 @@
     background-color: #3b5998;
 }
 
+.facebook:hover {
+    filter: brightness(90%);
+}
+
 .instagram {
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
@@ -24,16 +31,32 @@
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 
+.instagram:hover {
+    filter: brightness(90%);
+}
+
 .email {
     background-color: #ea4335;
+}
+
+.email:hover {
+    filter: brightness(90%);
 }
 
 .linkedin {
     background-color: #0A66C2;
 }
 
+.linkedin:hover {
+    filter: brightness(90%);
+}
+
 .github {
     background-color: black;
+}
+
+.github:hover {
+    filter: brightness(90%);
 }
 
 .facebook,
@@ -43,7 +66,7 @@
 .github {
     border: 1px solid white;
     border-radius: 30px;
-    margin: 15px;
+    margin: 15px auto;
     padding: 15px;
     align-items: center;
 }
@@ -55,4 +78,64 @@
 .github-icon {
     margin: 0 20px 0 10px;
     align-items: center;
+}
+
+.contact-other-way {
+    padding: 20px 0 20px 0;
+}
+
+.contact-other-way h1 {
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#errorMessage {
+    display: none;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.location {
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #000;
 }

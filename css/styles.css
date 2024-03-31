@@ -149,8 +149,8 @@ li a:hover {
     background-color: #fbf6ee;
     font-size: 15px;
     display: block;
-    margin: 10px auto;
-    padding: 10px 30px;
+    margin: 0px auto;
+    padding: 20px 30px;
     border: none;
     cursor: pointer;
 }
@@ -178,6 +178,6 @@ footer {
     height: 40px;
     text-align: center;
     padding: 5px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-size: 13px;
 }
