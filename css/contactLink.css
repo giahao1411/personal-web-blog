@@ -1,4 +1,58 @@
 .contact {
     text-align: center;
-    padding-top: 100px;
+    padding: 50px 0 20px 0;
+}
+
+.contact-container {
+    width: 100%;
+}
+
+.contact-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.email {
+    background-color: #ea4335;
+}
+
+.linkedin {
+    background-color: #0A66C2;
+}
+
+.github {
+    background-color: black;
+}
+
+.facebook,
+.instagram,
+.email,
+.linkedin,
+.github {
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 15px;
+    padding: 15px;
+    align-items: center;
+}
+
+.facebook-icon,
+.instagram-icon,
+.google-icon,
+.linkedin-icon,
+.github-icon {
+    margin: 0 20px 0 10px;
+    align-items: center;
 }

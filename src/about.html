@@ -4,8 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS places here-->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/responsive.css">
+
+    <!--script here-->
+    <script src="../js/script.js"></script>
+
     <title>About</title>
 </head>
 
@@ -21,13 +27,13 @@
             </ul>
         </nav>
 
-        <div class="dropdown">
+        <div class="dropdown" onclick="toogleDropdown()">
             <div class=" dropdown-button">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
-            <div class="dropdown-content">
+            <div class="dropdown-content" id="dropdown-content">
                 <a href="../index.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>

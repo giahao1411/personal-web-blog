@@ -4,9 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS places here-->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/responsive.css">
     <link rel="stylesheet" href="../css/contactLink.css">
+
+    <!--CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!--script here-->
+    <script src="../js/script.js"></script>
+
     <title>Contact</title>
 </head>
 
@@ -22,27 +32,57 @@
             </ul>
         </nav>
 
-        <div class="dropdown">
+        <div class="dropdown" onclick="toogleDropdown()">
             <div class=" dropdown-button">
                 <div class="bar"></div>
                 <div class="bar"></div>
                 <div class="bar"></div>
             </div>
-            <div class="dropdown-content">
+            <div class="dropdown-content" id="dropdown-content">
                 <a href="../index.html">Home</a>
-                <a href="src/about.html">About</a>
-                <a href="src/contact.html">Contact</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
             </div>
         </div>
     </header>
 
     <main>
         <h1 class="contact">Contact me on</h1>
-        <div class="facebook"><a href="https://www.facebook.com/profile.php?id=100030618045066">Facebook</a></div>
-        <div class="instagram"><a href="https://www.instagram.com/giahao_1411/">Instagram</a></div>
-        <div class="email"><a href="mailto:trangiahao498@gmail.com">Email</a></div>
-        <div class="linkedin"><a>Linkedin</a></div>
-        <div class="github"><a>Github</a></div>
+        <div class="contact-container">
+            <div class="facebook"><a href="https://www.facebook.com/profile.php?id=100030618045066" target="_blank"><i
+                        class="fa fa-facebook facebook-icon" aria-hidden="true"></i>Facebook</a></div>
+
+            <div class=" instagram"><a href="https://www.instagram.com/giahao_1411/" target="_blank"><i
+                        class="fa fa-instagram instagram-icon" aria-hidden="true"></i>Instagram</a>
+            </div>
+
+            <div class="email"><a href="mailto:trangiahao498@gmail.com" target="_blank"><i
+                        class="fa fa-google google-icon" aria-hidden="true"></i>Email</a></div>
+
+            <div class="linkedin"><a href="https://www.linkedin.com/in/gia-hao-tran-0bb70a2a2/" target="_blank"><i
+                        class="fa fa-linkedin linkedin-icon" aria-hidden="true"></i>LinkedIn</a>
+            </div>
+
+            <div class="github"><a href="https://github.com/giahao1411" target="_blank"><i
+                        class="fa fa-github github-icon" aria-hidden="true"></i>Github</a></div>
+        </div>
+
+
+        <h2>Other way to contact me</h2>
+        <form>
+            <div class="form-group">
+                <label for="fullName">Name</label>
+                <input type="text" class="form-control" name="fullName" id="fullName" aria-describedby="helpId"
+                    placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+                    placeholder="example123@gmail.com">
+            </div>
+            <div class="errorMessage my-3">Please enter your email address.</div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
     </main>
 
     <footer>
