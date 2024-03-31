@@ -20,9 +20,7 @@
     background-color: #3b5998;
 }
 
-.facebook:hover {
-    filter: brightness(90%);
-}
+
 
 .instagram {
     background: #f09433;
@@ -31,30 +29,22 @@
     background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
 }
 
-.instagram:hover {
-    filter: brightness(90%);
-}
-
 .email {
     background-color: #ea4335;
-}
-
-.email:hover {
-    filter: brightness(90%);
 }
 
 .linkedin {
     background-color: #0A66C2;
 }
 
-.linkedin:hover {
-    filter: brightness(90%);
-}
-
 .github {
     background-color: black;
 }
 
+.facebook:hover,
+.instagram:hover,
+.email:hover,
+.linkedin:hover,
 .github:hover {
     filter: brightness(90%);
 }
